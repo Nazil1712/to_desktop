@@ -2,6 +2,16 @@
 
 @import "tailwindcss";
 
+@layer base {
+    body {
+        font-style: "Inter", sans-serif;
+    }
+
+    h1, h2, h3 {
+        @apply font-poppins text-gray-800 font-medium
+    }
+}
+
 @theme {
     --color-primary: #3238F2;
     --font-poppins: "Poppins", sans-serif;
